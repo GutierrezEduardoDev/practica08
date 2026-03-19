@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 175px;
+}
+html{
+    height: 10vh;
+}
+body {
+    background: linear-gradient(90deg, #273d51 0.000%, #214973 16.667%, #226098 33.333%, #2b7eb8 50.000%, #399dcd 66.667%, #49b8d1 83.333%, #59c9c4 100.000%);
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+    gap: 10px;
+}
+.tarjeta1{
+    display: flex;
+    width: 600px;
+    height: 225px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 15px gray ;
+    text-align: center;
+}
+.tarjeta-header{
+    border-right: 1px solid gray;
+}
+
+.tarjeta-header, .parrafo{
+    padding: 20px;
+    text-align: center;
+}
+#tarjeta-imagen{
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    margin: 20xp 30px;
+    height: 100px;
+    width: 100px;
+}
+.titulo{
+    color: navy;
+}
+.descripcion{
+    margin: 20px 20px;
+    width: 100%;
+    
+}
+
+#facebook, #instagram, #twitter{
+    width: 20px;
+    margin: 20px;
+    height: 20px;
+    color: blue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
