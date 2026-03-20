@@ -42,11 +42,6 @@ article{
     margin: 20px 45px;
     border: 1px solid black;
 }
-#facebook, #instagram, #twitter{
-    height: 15px;
-    width: 15px;
-    color: blue;
-}
 .tarjeta{
     height: 265px;
     width: 650px;
