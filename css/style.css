@@ -3,63 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    margin: 175px;
+body{
+    background: linear-gradient(45deg, #004069 0.000%, #005d6f 8.333%, #007a77 16.667%, #009782 25.000%, #00b18e 33.333%, #03c99c 41.667%, #05dcac 50.000%, #08ebbd 58.333%, #0bf5ce 66.667%, #0ff8e0 75.000%, #12f6f1 83.333%, #16eeff 91.667%, #19e0ff 100.000%);   
 }
 html{
-    height: 10vh;
+    height: 100vh;
 }
-body {
-    background: linear-gradient(90deg, #273d51 0.000%, #214973 16.667%, #226098 33.333%, #2b7eb8 50.000%, #399dcd 66.667%, #49b8d1 83.333%, #59c9c4 100.000%);
+body, main, section, article {
+    height: 100%;
 }
-
 article{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 .tarjeta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0 20px;
-    text-align: center;
-    gap: 10px;
+    background: white;
+    border-radius: 2px;
 }
 .tarjeta1{
     display: flex;
     width: 600px;
-    height: 225px;
-    background: white;
-    border-radius: 2px;
-    box-shadow: 0 0 15px gray ;
-    text-align: center;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 }
-.tarjeta-header{
-    border-right: 1px solid gray;
-}
-
-.tarjeta-header, .parrafo{
-    padding: 20px;
-    text-align: center;
+.parrafo{
+    align-items: center;
+    justify-content: center;
 }
 #tarjeta-imagen{
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    box-shadow: 0 0 10px gray;
-    margin: 20xp 30px;
-    height: 100px;
-    width: 100px;
+    box-shadow: 0 0 15px gray;
+    margin: 20px 45px;
+    border: 1px solid black;
+}
+#facebook, #instagram, #twitter{
+    height: 15px;
+    width: 15px;
+    color: blue;
+}
+.tarjeta{
+    height: 265px;
+    width: 675px;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 15px gray;
+}
+.tarjeta-header{
+    border-right: 2px solid gray;
+}
+.tarjeta-body{
+    margin: 20px 20px;
+}
+.tarjeta-header, .tarjeta-body{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.nombre{
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 .titulo{
-    color: navy;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
-.descripcion{
-    margin: 20px 20px;
-    width: 100%;
-    
-}
-
 #facebook, #instagram, #twitter{
     width: 20px;
     margin: 20px;
